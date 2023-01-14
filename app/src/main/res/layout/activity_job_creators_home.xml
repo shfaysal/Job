@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="#E8E3E5"
+    tools:context=".JobCreatorsHome">
+
+    <Button
+        android:id="@+id/applicantlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Applicant list"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:background="@drawable/spin_border"
+        android:backgroundTint="@color/purple_200"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/postjob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Job"
+        android:background="@drawable/spin_border"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_computer"
+        android:icon="@drawable/computer"
+        android:title="Computer"/>
+
+    <item android:id="@+id/menu_Medical"
+        android:icon="@drawable/computer"
+        android:title="Medical"/>
+
+    <item android:id="@+id/menu_Journalist"
+        android:icon="@drawable/computer"
+        android:title="Journalist"/>
+
+    <item android:id="@+id/menu_Civil"
+        android:icon="@drawable/computer"
+        android:title="Civil"/>
+
+    <item android:id="@+id/menu_Finance"
+        android:icon="@drawable/computer"
+        android:title="Finance"/>
+
+    <item android:id="@+id/menu_Teacher"
+        android:icon="@drawable/computer"
+        android:title="Teacher"/>
+
+    <item android:id="@+id/menu_logout"
+        android:icon="@drawable/computer"
+        android:title="Logout"/>
+
+
+</menu>

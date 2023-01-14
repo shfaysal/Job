@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".Post">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/spin_border"
+            android:text="Category"/>
+
+        <Spinner
+            android:id="@+id/sp_category"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_comanyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/spin_border"
+        android:hint="Company Name"
+        android:padding="5dp"
+        android:textSize="23sp"
+        tools:ignore="TouchTargetSizeCheck"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/et_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/spin_border"
+        android:hint="Post"
+        android:padding="5dp"
+        android:textSize="23sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/job_details"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@drawable/spin_border"
+        android:gravity="top|start"
+        android:hint="Write your post details Here"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:layout_weight=".5"
+        android:id="@+id/btn_post"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:text="Post"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="30sp"/>
+</LinearLayout>
